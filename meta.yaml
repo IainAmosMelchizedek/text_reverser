@@ -1,0 +1,22 @@
+package:
+  name: text_reverser
+  version: 0.1.0
+
+source:
+  path: .
+
+build:
+  script: python setup.py install  # Or use reverse_text.py directly.
+
+requirements:
+  build:
+    - python
+    - pip
+
+  run:
+    - python
+
+about:
+  home: https://github.com/yourname/text_reverser
+  license: MIT
+  summary: A simple utility to reverse text.
